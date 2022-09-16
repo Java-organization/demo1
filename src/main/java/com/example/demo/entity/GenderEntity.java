@@ -33,5 +33,4 @@ public class GenderEntity {
 
     @OneToMany(mappedBy = "gender")
     List<TestEntity> tests;
-
 }
